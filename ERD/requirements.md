@@ -77,6 +77,3 @@ This project models a simplified version of the AirBnB platform using a relation
 - **User ↔ Message ↔ User** (1:N to 1:N): Users can send and receive many messages to and from each other.
 
 ---
-
-> This schema is normalized to **Third Normal Form (3NF)** to remove redundancy and ensure data integrity. Future improvements might include availability calendars, address normalization, or security tokens for password recovery.
-
