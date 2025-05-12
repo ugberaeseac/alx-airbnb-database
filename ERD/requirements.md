@@ -8,7 +8,6 @@ This project models a simplified version of the AirBnB platform using a relation
 
 ![ER Diagram](https://iili.io/38l1CHN.png)
 
-> Replace the link above with your actual GitHub-hosted ER diagram image.
 
 ---
 
