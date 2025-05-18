@@ -1,6 +1,6 @@
 SELECT properties.property_id, name, description, avg_rating
 FROM properties
-INNER JOIN (select reviews.property_id, round(AVG(rating)) as avg_rating
+INNER JOIN (select reviews.property_id, round(AVG(rating), 1) as avg_rating
 	FROM reviews
 	GROUP BY reviews.property_id) avg_rating_property
 ON properties.property_id = avg_rating_property.property_id
